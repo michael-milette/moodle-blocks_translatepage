@@ -2,6 +2,8 @@
 
 This block plugin for Moodle LMS adds a dropdown menu enabling you to translate the current page into any language using Google Translate.
 
+Tested to be compatible with Moodle 3.9, 4.x and PHP 7.4 to 8.2.
+
 ## Installing via uploaded ZIP file ##
 
 1. Log in to your Moodle site as an admin and go to **Site administration > Plugins > Install plugins**.
@@ -25,6 +27,8 @@ Alternatively, you can run
 ## Support
 
 Only paid support is available for this plugin. However, we welcome contributed pull requests to fix bugs and add enhancements.
+
+If you find this plugin useful, please Watch, Fork and Star this repository to let us know that you appreciate that we made this available to you for free.
 
 ## License ##
 
