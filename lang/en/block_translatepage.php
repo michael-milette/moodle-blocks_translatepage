@@ -19,8 +19,7 @@
  *
  * @package   block_translatepage
  * @category  string
- * @copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
- * @link      https://www.tngconsulting.ca/
+ * @copyright 2015-2024 TNG Consulting Inc. {@link https://www.tngconsulting.ca/}
  * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

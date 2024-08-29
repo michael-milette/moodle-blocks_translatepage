@@ -18,9 +18,8 @@
  *  Translate this page.
  *
  * @package   block_translatepage
- * @copyright 2015-2023 TNG Consulting Inc.
- * @link      https://www.tngconsulting.ca/
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @copyright 2015-2024 TNG Consulting Inc. {@link https://www.tngconsulting.ca/}
+ * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
@@ -38,9 +37,9 @@ $capabilities = [
     'block/translatepage:myaddinstance' => [
         'captype' => 'write',
         'contextlevel' => CONTEXT_SYSTEM,
-        'archetypes' => array(
-            'user' => CAP_ALLOW
-        ),
-        'clonepermissionsfrom' => 'moodle/my:manageblocks'
+        'archetypes' => [
+            'user' => CAP_ALLOW,
+        ],
+        'clonepermissionsfrom' => 'moodle/my:manageblocks',
     ],
 ];

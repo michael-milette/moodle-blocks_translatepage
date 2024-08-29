@@ -18,15 +18,14 @@
  * Plugin version and other meta-data are defined here.
  *
  * @package   block_translatepage
- * @copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
- * @link      https://www.tngconsulting.ca/
+ * @copyright 2015-2024 TNG Consulting Inc. {@link https://www.tngconsulting.ca/}
  * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_translatepage';
-$plugin->release = '0.1.0';
-$plugin->version = 2023110102;
+$plugin->release = '1.0.0';
+$plugin->version = 2024082900;
 $plugin->requires = 2020061500; // Moodle 3.9+.
-$plugin->maturity = MATURITY_ALPHA;
+$plugin->maturity = MATURITY_STABLE;

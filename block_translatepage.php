@@ -18,8 +18,7 @@
  * Block translatepage is defined here.
  *
  * @package   block_translatepage
- * @copyright 2015-2023 TNG Consulting Inc. <www.tngconsulting.ca>
- * @link      https://www.tngconsulting.ca/
+ * @copyright 2015-2024 TNG Consulting Inc. {@link https://www.tngconsulting.ca/}
  * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_translatepage extends block_base {
@@ -49,8 +48,8 @@ class block_translatepage extends block_base {
         }
 
         $this->content = new stdClass();
-        $this->content->items = array();
-        $this->content->icons = array();
+        $this->content->items = [];
+        $this->content->icons = [];
         $this->content->footer = '';
 
         if (!empty($this->config->text)) {
@@ -92,10 +91,10 @@ class block_translatepage extends block_base {
      * @return string[] Array of pages and permissions.
      */
     public function applicable_formats() {
-        return array(
+        return [
             'all' => true,
             'course' => true,
-            'site' => true
-        );
+            'site' => true,
+        ];
     }
 }
