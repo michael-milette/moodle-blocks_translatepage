@@ -27,3 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Translate this page';
 $string['translationsvary'] = 'Please note translation accuracy will vary across languages.';
+$string['translatepage:myaddinstance'] = 'Add a new Translate Page block to the page';
+$string['translatepage:addinstance'] = 'Add a new Translate Page block to the page';
